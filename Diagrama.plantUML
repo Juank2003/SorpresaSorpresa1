@@ -1,0 +1,56 @@
+@startuml
+
+class WindowsFactory{
++ createbutton(): button
++ createCheckBox() checkbox
+
+}
+
+class MacOSFactory{
++ createbutton(): button
++ createCheckBox() checkbox
+
+}
+
+class Application{
+-factory: GUIFactory
+-button: Button
+
++Application(f:GUIFactory)
++createUI()
++paint()
+
+}
+
+interface GUIFactory{
+
++createButton(): Button
++ createCheckBox() checkbox
+}
+
+Application --> GUIFactory
+MacOSFactory ..> GUIFactory
+WindowsFactory ..> GUIFactory
+
+object winButton
+object winCheckBox
+
+object MacOSButton
+object MacOSCheckBox
+
+object Button
+object CheckBox
+
+WindowsFactory ...> winButton 
+WindowsFactory ...> winCheckBox
+
+MacOSFactory ...> MacOSButton 
+MacOSFactory ...> MacOSCheckBox
+
+winButton --> Button
+winCheckBox --> CheckBox
+
+MacOSCheckBox --> CheckBox
+MacOSButton --> Button
+
+@enduml

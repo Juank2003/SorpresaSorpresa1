@@ -2,4 +2,6 @@
 
 ## Mi repositorio: https://github.com/Juank2003/SorpresaSorpresa1.git
 
+ ## Diagrama de clases:
+
 <img src="https://www.plantuml.com/plantuml/svg/hPD1JuGm58JlxrUy8uJ03-2mMJ7HxC5uC1lFfTkDLMm9lCsk8Vvt2vNshKYyU9jqflDDIjZs93ewlJS0iX5zZy_Q7EovlnEIRFSnG8QoKu9KVIAo9abBz2eOjozAlbNsagGeHrdR2y3dNFSWvEFJVvNTj6sZfI1jpG3vqRUMUB_VVHCWztqbLhuNCdOdEPOncaBcaVjTudGhj24dHfXJgdFjYZKFCEUhiBtwUxjhOmCmppTyBNySB8ehZt-7fGksVbMIyAoDNy4EvXqXD652B1ujWjUPQ2-s59j8nZKxtfzetEQJSCsEzoDhV40lWH6cun-utpt6vLsmLURWVe8l">
